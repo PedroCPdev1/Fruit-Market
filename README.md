@@ -20,4 +20,5 @@ This project utilizes the following technologies:
 
 ## Setup
 
-Run "npm i" on the project folder.
+Run "npm i" on the "Web" project folder.
+Run "mvn clean install" on the "Api" project folder.
