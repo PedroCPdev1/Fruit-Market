@@ -15,6 +15,8 @@ This project utilizes the following technologies:
 - **Vite**: Fast build tool and development server for modern web projects.
 - **Java**: General-purpose programming language used for backend services or integrations.
 - **MySQL**: Relational database management system for structured data storage.
+- **Spring Boot**: Api builder for services and database persist.
+
 
 ## Setup
 
