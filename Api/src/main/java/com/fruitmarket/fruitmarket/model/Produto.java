@@ -1,17 +1,21 @@
 package com.fruitmarket.fruitmarket.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "PRODUTO")
 public class Produto {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
+
+    @Column(name = "nome")
     private String nome;
+
+    @Column(name = "preco")
     private Double preco;
+
+    @Column(name = "quantidade")
     private Integer quantidade;
 
     // Getters e Setters
