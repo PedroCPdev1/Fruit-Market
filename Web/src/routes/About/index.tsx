@@ -1,0 +1,14 @@
+export default function About() {
+    return (
+        <main>
+        <div className="flex flex-row p-20 text-xl text-center bg-gray-600 ml-15 mr-15 mt-10 rounded-4xl gap-30 items-center">
+            <div className="flex flex-col gap-5"> 
+                <h2 className="text-3xl font-extrabold ">Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> </div>
+            <div className="scale-200">
+                <img src="../../../public/filler.jpg" alt="ProfilePicure" />
+            </div>
+        </div>
+        </main>
+    )
+}
